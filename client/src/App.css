@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+}
+
+.list-post {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.post-card {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #eee;
+}
+
+.post-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.post-desc {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-btn {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.post-form {
+  min-width: 400px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.form-group {
+  padding: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text-area {
+  height: 200px;
+}
+
+.form-label {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin: 0 20px;
+  cursor: pointer;
+  font-size: 20px;
+}
